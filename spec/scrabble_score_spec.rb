@@ -22,4 +22,7 @@ describe "score" do
   it "score quirky as 22" do
     expect(score("quirky")).to eq 22
   end
+  it "score OXYPHENBUTAZONE as 41" do
+    expect(score("OXYPHENBUTAZONE")).to eq 41
+  end
 end
