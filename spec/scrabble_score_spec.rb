@@ -25,4 +25,7 @@ describe "score" do
   it "score OXYPHENBUTAZONE as 41" do
     expect(score("OXYPHENBUTAZONE")).to eq 41
   end
+  it "score alacrity as" do
+    expect(score("alacrity")).to eq 13
+  end
 end
