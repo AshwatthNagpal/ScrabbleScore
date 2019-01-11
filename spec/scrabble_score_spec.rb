@@ -13,4 +13,8 @@ describe "score" do
 it "score a as 1" do
   expect(score("a")).to eq 1
   end
+  it "score f as 4" do
+    expect(score("f")).to eq 4
+  end
+
 end

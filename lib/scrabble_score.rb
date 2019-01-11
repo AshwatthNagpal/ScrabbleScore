@@ -5,9 +5,12 @@ def score(str = "")
   str.upcase.each_char do |i|
     if i == "\n" || i == "\t"
       return 0
-    end
-    if i=="A"
+
+    elsif i == "A"
       return 1
+
+    elsif i == "F"
+      return 4
     end
   end
 end
