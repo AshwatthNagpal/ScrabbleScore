@@ -7,5 +7,8 @@ describe "score" do
   it "score whitespaces as zero" do
     expect(score("\n\t")).to eq 0
   end
+  it "score nil as zero" do
+    expect(score(nil)).to eq 0
+  end
 
 end
