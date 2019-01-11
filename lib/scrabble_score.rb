@@ -9,12 +9,16 @@ def score(str = "")
       return 0;
     when "A", "E", "I", "O", "U", "L", "N", "R", "S", "T"
       sc += 1
-    when "F"
+    when "F", "Y"
       sc += 4
+    when "K"
+      sc += 5
+    when "Q"
+      sc += 10
     else
       return 0
     end
-    
+
   end
   sc
 end

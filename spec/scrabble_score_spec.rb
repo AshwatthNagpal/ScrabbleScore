@@ -10,8 +10,8 @@ describe "score" do
   it "score nil as zero" do
     expect(score(nil)).to eq 0
   end
-it "score a as 1" do
-  expect(score("a")).to eq 1
+  it "score a as 1" do
+    expect(score("a")).to eq 1
   end
   it "score f as 4" do
     expect(score("f")).to eq 4
@@ -19,5 +19,7 @@ it "score a as 1" do
   it "score street as 6" do
     expect(score("street")).to eq 6
   end
-
+  it "score quirky as 22" do
+    expect(score("quirky")).to eq 22
+  end
 end
