@@ -10,5 +10,7 @@ describe "score" do
   it "score nil as zero" do
     expect(score(nil)).to eq 0
   end
-
+it "score a as 1" do
+  expect(score("a")).to eq 1
+  end
 end
